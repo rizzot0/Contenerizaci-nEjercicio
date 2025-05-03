@@ -4,7 +4,7 @@ Pequeña API REST para la gestión de tareas, creada con **Flask** y contenida u
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Python 3.10
 - Flask 2.3.2
@@ -13,7 +13,7 @@ Pequeña API REST para la gestión de tareas, creada con **Flask** y contenida u
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 Lista1/
