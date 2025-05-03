@@ -1,6 +1,6 @@
 # 📝 Task Manager API
 
-Pequeña API REST para la gestión de tareas, creada con **Flask** y contenida usando **Docker** y **Docker Compose**. Este proyecto fue diseñado como una práctica para contenerización de servicios y despliegue local.
+Pequeña API REST para la gestión de tareas, creada con **Flask** y contenida usando **Docker** y **Docker Compose**.
 
 ---
 
@@ -26,7 +26,7 @@ Lista1/
 
 ---
 
-## ⚙️ Cómo usar
+##  Cómo usar
 
 ### 1. Clona o descarga el proyecto
 
@@ -45,7 +45,7 @@ Esto levantará la API en `http://localhost:5000`.
 
 ---
 
-## 📡 Endpoints disponibles
+## Endpoints disponibles
 
 ### `GET /tasks`
 Obtiene la lista de tareas.
@@ -67,7 +67,7 @@ curl -X POST http://localhost:5000/tasks \
 
 ---
 
-## 🧼 Detener la aplicación
+##  Detener la aplicación
 
 ```bash
 docker-compose down
@@ -75,13 +75,4 @@ docker-compose down
 
 ---
 
-## 📌 Notas
 
-- No hay base de datos; las tareas se almacenan en memoria (solo mientras se ejecuta el contenedor).
-- Puedes extender fácilmente este proyecto para persistencia con SQLite, PostgreSQL, MongoDB, etc.
-
----
-
-## 👨‍💻 Autor
-
-Desarrollado por [Tu Nombre o Usuario](https://github.com/tu-usuario)
